@@ -8,7 +8,7 @@
         android:showAsAction="always"/>
     <item
         android:id="@+id/delete"
-        android:icon="@drawable/Delete"
+        android:icon="@drawable/delete"
         android:title="@string/it2"
         android:showAsAction="ifRoom"/>
     <item
