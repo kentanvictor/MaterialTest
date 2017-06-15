@@ -3,18 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/backup"
-        android:icon="@color/colorAccent"
+        android:icon="@drawable/backup"
         android:title="@string/it1"
         android:showAsAction="always"/>
     <item
         android:id="@+id/delete"
-        android:icon="@color/ic_delete"
+        android:icon="@drawable/Delete"
         android:title="@string/it2"
         android:showAsAction="ifRoom"/>
     <item
         android:id="@+id/settings"
         android:title="@string/it3"
-        android:icon="@color/ic_settings"
+        android:icon="@drawable/settings"
         android:showAsAction="never"/>
 
 </menu>

@@ -3,6 +3,4 @@
     <color name="colorPrimary">#1223e2</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="ic_settings">#ece113</color>
-    <color name="ic_delete">#06e211</color>
 </resources>
