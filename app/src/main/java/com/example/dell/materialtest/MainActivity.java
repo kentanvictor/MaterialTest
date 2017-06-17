@@ -16,24 +16,23 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
     }
-    public boolean onCreateOptionsMenus (Menu menu)
-    {
-        getMenuInflater().inflate(R.menu.toolbar,menu);
+
+    public boolean onCreateOptionsMenus(Menu menu) {
+        getMenuInflater().inflate(R.menu.toolbar, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId())
-        {
+        switch (item.getItemId()) {
             case R.id.backup:
-                Toast.makeText(this, "You clicked Backup" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You clicked Backup", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.delete:
-                Toast.makeText(this , "You clicked Delete" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You clicked Delete", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.settings:
-                Toast.makeText(this , "You clicked Settings" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "You clicked Settings", Toast.LENGTH_SHORT).show();
                 break;
             default:
         }
